@@ -27,13 +27,13 @@ const Navbar = () => {
         <Link to="about" smooth={true} duration={500}>
           <li className="hover:text-[#ed6a5a] hover:animate-pulse">About</li>
         </Link>
+        <Link to="work" smooth={true} duration={500}>
+          <li className="hover:text-[#ed6a5a] hover:animate-pulse">Projects</li>
+        </Link>
         <Link to="skills" smooth={true} duration={500}>
           <li className="hover:text-[#ed6a5a] hover:animate-pulse">
             Skill Set
           </li>
-        </Link>
-        <Link to="work" smooth={true} duration={500}>
-          <li className="hover:text-[#ed6a5a] hover:animate-pulse">Projects</li>
         </Link>
         <Link to="contact" smooth={true} duration={500}>
           <li className="hover:text-[#ed6a5a] hover:animate-pulse">Contact</li>
