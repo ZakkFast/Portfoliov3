@@ -22,14 +22,14 @@ const Home = () => {
           to my Web Dev Aresenal.
         </p>
         <div>
-          <Link to="work" smooth={true} duration={500}>
             <button className="text-[#ed6a5a] group border-2 border-[#333] px-6 py-3 my-2 flex items-center font-bold hover:bg-[#ed6a5a] hover:text-[#333] hover:border-[#ed6a5a]">
-              View Work
+          <Link to="work" smooth={true} duration={500}>
               <span className="animate-pulse">
-                <HiArrowNarrowDown className="ml-3 " />
+              View Work
+                <HiArrowNarrowDown className="mx-auto " />
               </span>
-            </button>
           </Link>
+            </button>
         </div>
       </div>
     </div>
