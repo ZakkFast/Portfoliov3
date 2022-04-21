@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import logo from '../assets/logo.png';
@@ -46,34 +46,37 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href=""
+              href="https://www.linkedin.com/in/zachary-fast/"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-sky-800">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-[#333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href=""
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-indigo-700">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href=""
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-[#333333]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href=""
+              target="_blank"
             >
               GitHub <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-blue-500">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://twitter.com/ZakkFast"
+              target="_blank"
+            >
+              Twitter <FaTwitter size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-[#333]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://drive.google.com/file/d/1eXcnBbogzD6bM09YQ4gr0W33YDj1qgWF/view"
+              target="_blank"
+            >
+              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
