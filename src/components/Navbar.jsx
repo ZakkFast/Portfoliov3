@@ -21,27 +21,27 @@ const Navbar = () => {
       </div>
       {/* Nav-links */}
       <ul className="hidden md:flex">
-        <li>
+        <li className='hover:text-[#ed6a5a] hover:animate-pulse'>
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='hover:text-[#ed6a5a] hover:animate-pulse'>
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className='hover:text-[#ed6a5a] hover:animate-pulse'>
           <Link to="skills" smooth={true} duration={500}>
             Skill Set
           </Link>
         </li>
-        <li>
+        <li className='hover:text-[#ed6a5a] hover:animate-pulse'>
           <Link to="work" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li>
+        <li className='hover:text-[#ed6a5a] hover:animate-pulse'>
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -95,7 +95,7 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-blue-600">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-[#333] hover:text-gray-300"
               href="https://www.linkedin.com/in/zachary-fast/"
               target="_blank"
               rel="noreferrer"
@@ -105,7 +105,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-[#333]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-[#333] hover:text-gray-300"
               href="https://github.com/ZakkFast"
               target="_blank"
               rel="noreferrer"
@@ -115,7 +115,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-blue-500">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-[#333] hover:text-gray-300"
               href="https://twitter.com/ZakkFast"
               target="_blank"
               rel="noreferrer"
@@ -125,7 +125,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-[#333]">
             <a
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-[#333] hover:text-gray-300"
               href="https://drive.google.com/file/d/1eXcnBbogzD6bM09YQ4gr0W33YDj1qgWF/view"
               target="_blank"
               rel="noreferrer"
