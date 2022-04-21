@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import logo from '../assets/logo.png';
 
@@ -11,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={logo} alt="logo image" style={{ width: '50px' }} />
+        <img src={logo} alt="logo" style={{ width: '50px' }} />
       </div>
       {/* Nav-links */}
       <ul className="hidden md:flex">
@@ -48,6 +47,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/zachary-fast/"
               target="_blank"
+              rel="noreferrer" 
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -55,8 +55,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 hover:bg-[#333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href=""
+              href="https://github.com/ZakkFast"
               target="_blank"
+              rel="noreferrer" 
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -66,6 +67,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://twitter.com/ZakkFast"
               target="_blank"
+              rel="noreferrer" 
             >
               Twitter <FaTwitter size={30} />
             </a>
@@ -75,6 +77,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://drive.google.com/file/d/1eXcnBbogzD6bM09YQ4gr0W33YDj1qgWF/view"
               target="_blank"
+              rel="noreferrer" 
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
