@@ -4,11 +4,11 @@ import stockphoto2 from '../assets/stockphoto2.jpg';
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div name="work" className="w-full md:h-screen text-[#333] bg-[#9bc1bc]">
       {/* Section Header */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+          <p className="text-4xl font-bold inline border-b-4 border-[#ed6a5a]">
             Projects
           </p>
           <p className="py-6">Here is some of my recent work.</p>
