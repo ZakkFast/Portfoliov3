@@ -18,7 +18,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am specialize in creating elegant, professional web applications
+              I specialize in creating elegant, professional web applications
               that not only delieve, but amaze and stun, all while utilizing the
               latest in W3C practices and standards. Whether you're a business
               that needs digital marketplace or solutions, or a Content Creator
