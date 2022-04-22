@@ -19,7 +19,7 @@ const About = () => {
           <div>
             <p>
               I specialize in creating elegant, professional web applications
-              that not only delieve, but amaze and stun, all while utilizing the
+              that not only deliever, but amaze and stun, all while utilizing the
               latest in W3C practices and standards. Whether you're a business
               that needs digital marketplace or solutions, or a Content Creator
               looking to cut our their own slice of the digtial space, I am here
