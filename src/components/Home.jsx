@@ -15,21 +15,21 @@ const Home = () => {
           I'm a Full Stack Developer.
         </h2>
         <p className="text-[#333] py-4 max-w-[700px]">
-          I am a solution-driven Full-Stack Developer. Specializing in creating
-          striking and extra-ordinary digital experiences. At the moment I am
-          building scalable, full-stack applications using the MERN stack.
-          However, my curious nature is always leading to new tech being added
-          to my Web Dev Aresenal.
+          I am a solution-driven Full-Stack Developer, specializing in creating
+          striking and extra-ordinary digital experiences. I currently build
+          scalable, full-stack applications using the MERN stack. However, my
+          curious nature is always leading to new tech being added to my Web Dev
+          Aresenal.
         </p>
         <div>
-            <button className="text-[#ed6a5a] group border-2 border-[#333] px-6 py-3 my-2 flex items-center font-bold hover:bg-[#ed6a5a] hover:text-[#333] hover:border-[#ed6a5a]">
-          <Link to="work" smooth={true} duration={500}>
+          <button className="text-[#ed6a5a] group border-2 border-[#333] px-6 py-3 my-2 flex items-center font-bold hover:bg-[#ed6a5a] hover:text-[#333] hover:border-[#ed6a5a]">
+            <Link to="work" smooth={true} duration={500}>
               <span className="animate-pulse">
-              View Work
+                View Work
                 <HiArrowNarrowDown className="mx-auto " />
               </span>
-          </Link>
-            </button>
+            </Link>
+          </button>
         </div>
       </div>
     </div>
