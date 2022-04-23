@@ -19,8 +19,6 @@ const Home = () => {
           typeSpeed={120}
           backSpeed={60}
           loop />
-            {/* <input type="text" className='bg-[#9bc1bc] text-[#000]'/> */}
-          {/* </Typed> */}
         </h2>
         <p className="text-[#333] py-4 max-w-[700px]">
           I am a solution-driven Full-Stack Developer, specializing in creating
