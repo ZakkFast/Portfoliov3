@@ -33,7 +33,7 @@ const Home = () => {
             <Link to="work" smooth={true} duration={500}>
               <span className="animate-pulse">
                 View Work
-                <HiArrowNarrowDown className="mx-auto " />
+                <HiArrowNarrowDown className="mx-auto animate-bounce" />
               </span>
             </Link>
           </button>
