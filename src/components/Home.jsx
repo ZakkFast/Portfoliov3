@@ -12,10 +12,11 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ed6a5a]">
           Zakk Fast
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#333] ">
+        <h2 className="text-4xl font-bold text-[#333]">
           I'm a&nbsp;
           <Typed
-          strings={['Full Stack Developer', 'Solution Creator', 'Problem Solver', 'Web Developer']}
+          className='display: block sm:inline-block'
+          strings={['Web Developer', 'Full Stack Dev', 'Solution Creator', 'Problem Solver',]}
           typeSpeed={90}
           backSpeed={60}
           loop />
