@@ -1,6 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowDown } from 'react-icons/hi';
 import { Link } from 'react-scroll';
+import Typed from 'react-typed';
 
 const Home = () => {
   return (
@@ -11,8 +12,15 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ed6a5a]">
           Zakk Fast
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#333]">
-          I'm a Full Stack Developer.
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#333] ">
+          I'm a&nbsp;
+          <Typed
+          strings={['Full Stack Developer', 'Solution Creator', 'Problem Solver', 'Web Developer']}
+          typeSpeed={120}
+          backSpeed={60}
+          loop />
+            {/* <input type="text" className='bg-[#9bc1bc] text-[#000]'/> */}
+          {/* </Typed> */}
         </h2>
         <p className="text-[#333] py-4 max-w-[700px]">
           I am a solution-driven Full-Stack Developer, specializing in creating
