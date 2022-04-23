@@ -16,7 +16,7 @@ const Home = () => {
           I'm a&nbsp;
           <Typed
           strings={['Full Stack Developer', 'Solution Creator', 'Problem Solver', 'Web Developer']}
-          typeSpeed={120}
+          typeSpeed={90}
           backSpeed={60}
           loop />
         </h2>
