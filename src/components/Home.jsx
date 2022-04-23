@@ -31,9 +31,9 @@ const Home = () => {
         <div>
           <button className="text-[#ed6a5a] group border-2 border-[#333] px-6 py-3 my-2 flex items-center font-bold hover:bg-[#ed6a5a] hover:text-[#333] hover:border-[#ed6a5a]">
             <Link to="work" smooth={true} duration={500}>
-              <span className="animate-pulse">
+              <span className="animate-none sm:animate-pulse">
                 View Work
-                <HiArrowNarrowDown className="mx-auto animate-bounce" />
+                <HiArrowNarrowDown className="mx-auto animate-none sm:animate-bounce " />
               </span>
             </Link>
           </button>
