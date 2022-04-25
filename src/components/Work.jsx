@@ -32,7 +32,7 @@ const Work = () => {
                 <a
                   href="https://afternoon-citadel-56015.herokuapp.com/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -41,7 +41,7 @@ const Work = () => {
                 <a
                   href="https://github.com/ZakkFast/UW-21-22-Dev-Connect"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -63,7 +63,7 @@ const Work = () => {
                 <a
                   href="https://6267202445bcea03be5f36f2--playful-pithivier-ec077b.netlify.app/"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -72,7 +72,7 @@ const Work = () => {
                 <a
                   href="https://github.com/ZakkFast/defi"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
