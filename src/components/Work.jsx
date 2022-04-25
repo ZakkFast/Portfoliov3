@@ -1,6 +1,6 @@
 import React from 'react';
-import stockphoto1 from '../assets/stockphoto1.jpg';
-import stockphoto2 from '../assets/stockphoto2.jpg';
+import Project1 from '../assets/Project1.png';
+import Project2 from '../assets/Project2.png';
 
 const Work = () => {
   return (
@@ -18,21 +18,21 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${stockphoto1})` }}
+            style={{ backgroundImage: `url(${Project1})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Devvy
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://afternoon-citadel-56015.herokuapp.com/" target='_blank'>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ZakkFast/UW-21-22-Dev-Connect" target='_blank'>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -41,45 +41,22 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${stockphoto2})` }}
+            style={{ backgroundImage: `url(${Project2})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
+                Defi
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://6267202445bcea03be5f36f2--playful-pithivier-ec077b.netlify.app/' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/ZakkFast/defi' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${stockphoto1})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
